@@ -1,0 +1,8 @@
+#container {
+    padding: 0;
+    margin: 10px;
+    width: calc(100% - 20px);
+    height: calc(100vh - 100px);
+    border-radius: 15px;
+}
+

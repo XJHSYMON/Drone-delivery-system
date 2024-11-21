@@ -1,0 +1,79 @@
+.view-box {
+    width: calc(25% - 5px - 4px); /* 或者其他宽度 */
+    height: 0;
+    padding-top: calc((25% - 5px - 4px) * 9 / 16); /* 高度是宽度的50%，形成一个正方形 */
+    position: relative;
+    margin: 2.5px;
+}
+
+.views {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #1AB7EA;
+    cursor: pointer;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+.views:hover{
+    border: 2px solid #1AB7EA;
+}
+
+.views .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20%;
+    background: linear-gradient(180deg, #8a8a8a 0%, transparent 100%);
+    z-index: 1;
+}
+
+.views .title {
+    position: absolute;
+    z-index: 2;
+    color: #ffffff;
+    margin: 5px;
+    font-size: 18px;
+}
+
+.button-box {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    top: 5px;
+}
+
+.living-room-bg {
+    background: url("./../../assets/img/rooms/living-room.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.living-room-2-bg {
+    background: url("./../../assets/img/rooms/living-room-2.webp") no-repeat;
+    background-size: cover;
+}
+
+.bed-room-bg {
+    background: url("./../../assets/img/rooms/bedroom.jpeg") no-repeat;
+    background-size: cover;
+}
+
+.kitchen-bg {
+    background: url("./../../assets/img/rooms/kitchen.webp") no-repeat;
+    background-size: cover;
+}
+
+.yard-bg {
+    background: url("./../../assets/img/rooms/yard.webp") no-repeat;
+    background-size: cover;
+}
+
+.balcony-bg {
+    background: url("./../../assets/img/rooms/balcony.jpeg") no-repeat;
+    background-size: cover;
+}

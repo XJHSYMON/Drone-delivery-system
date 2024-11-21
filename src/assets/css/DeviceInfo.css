@@ -1,0 +1,64 @@
+.my-card {
+    position: relative;
+    margin: 10px;
+    width: 300px;
+    background: #006494;
+    box-shadow: 4px 4px 8px rgba(234, 234, 234, 0.3);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.my-card .title {
+    margin: 10px 10px 0 20px;
+    font-size: 18px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.my-card .des{
+    margin: 3px 10px 0 23px;
+    font-size: 15px;
+    color: #ffffff;
+    z-index: 2;
+}
+
+.my-card .icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    top:10px;
+    z-index:2;
+
+}
+
+.my-card .r-icon{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 10px;
+    bottom:10px;
+    z-index:2;
+
+}
+
+.my-card .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300px;
+    height: 120px;
+    background: linear-gradient(180deg, #8a8a8a 0%, transparent 100%);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.item-img{
+    background: #ffffff;
+    width: 95%;
+    border-radius: 8px;
+    margin-left: 2.5%;
+    margin-top: 10px;
+}
